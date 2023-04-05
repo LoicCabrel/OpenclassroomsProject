@@ -1,0 +1,33 @@
+table
+{
+    border-collapse: collapse;
+   
+}
+td,th
+{
+    border: 3px black solid;
+    text-align: center;
+    font-size: 50px;
+    width: 30%;
+    padding: 16px;
+    margin-left: 150px;
+}
+caption
+{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+/* Paragraphes en bleu par défaut */
+p {
+    color: blue;
+}
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+ {
+    p {
+        color: red;
+        background-color: black;
+        font-size: 1.2em;
+    }
+}
